@@ -37,7 +37,7 @@ html, body {
     height: 15%;
     width: 90%;
     background-color: #F5F5F7;
-    border-radius: 20%;
+    border-radius: 30px;
     margin-right: 0%;
 }
 
@@ -92,7 +92,7 @@ a{
     height: 80%;
     margin: 1%;
     background-color: #F4F6F8;
-    border-radius: 5%;
+    border-radius: 30px;
 }
     
 .link_container{
