@@ -35,9 +35,9 @@ html, body {
 .intro_box {
     height: 20%;
     width: 40%;
-    min-width: 480px;
-    border-style: dotted;
     background-color: #F5F5F7;
+    border-radius: 10%;
+    margin-right: 0%;
 }
 
 .intro_box_placholder {
