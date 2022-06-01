@@ -118,3 +118,20 @@ a{
       scroll-behavior: smooth;
     }
   }
+
+.intro_right{
+    float: right; 
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.intro_left{
+    margin-left: 5%;
+    float:left;
+    margin-top: 5%;
+}
+
+.intro_left_1{
+    margin-left: 5%;
+    float:left;
+}
