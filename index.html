@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        #slide-1 , #slide-2{
-            height: 100%;
-            width: 100%;
-        }
-        #img{
-        width: 100%;
-        height: auto;
-        min-height: 1000px;
-        position: fixed;
-        display: block;
-        top: 0;
-        left: 0;
-        opacity: 1;
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-image: url("src/ymc.jpg");
-        background-attachment: fixed;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="slide-1" class="homeSlide">
-        <div class="caption">
-            < p>try hard</p>
+
+    <div class="slide" data-0="transform:translate(0,0%);" data-100p="transform:translate(0,0%);" data-200p="transform:translate(0,-100%);"style="background: cadetblue;">
+        <div id="img" data-0="background-size:100% auto;" data-100p="background-size:200% auto ; opacity:1" data-200p="opacity:0"></div>
+        <p class="centered" data-0="opacity:1;" data-100p="opacity:0;">smsrt</p>
+        <p class="centered" data-100p="opacity:0" data-120p="opacity:1" data-180p="opacity:1" data-200p="opacity:0">retard </p>
+    </div>
+    <div class="slide" data-100p="transform:translate(0,100%);" data-200p="transform:translate(0,0%)" data-_box-300p="transform:translate(0,0%)" data-_box-400p="transform:translate(0,-100%)">
+		<div class="box" data-200p="width:0%;" data-_box-300p="width:100%" style="background: cornflowerblue;"></div>
+	</div>
+    <div class="slide" data-_box-200p="transform:translate(0,100%);" data-_box-400p="transform:translate(0,-100%);" style="background: chartreuse;">
+        <h1>About us</h1>
+        <div class="intro_box" data-_box-220p="transform:translate(0,100%)" data-_box-230p="transform:translate(0,0%)">
+            <p>6y</p>
+        </div>
+        <div class="intro_box" data-_box-235p="transform:translate(0,100%)" data-_box-245p="transform:translate(0,0%)">
+            <p>tkt</p>
+        </div>
+        <div class="intro_box" data-_box-250p="transform:translate(0,100%)" data-_box-260p="transform:translate(0,0%)">
+            <p>left</p>
+        </div>
+        <div class="intro_box" data-_box-265p="transform:translate(0,100%)" data-_box-275p="transform:translate(0,0%)">
+            <p>pig</p>
+        </div>
+        <div class="intro_box" data-_box-280p="transform:translate(0,100%)" data-_box-290p="transform:translate(0,0%)">
+            <p>jy</p>
+        </div>
         </div>
         
-        <div id="img" data-0="background-size:100% auto; opacity:1;" data-500="background-size:200% auto ; top:0 ; position:fixed ; opacity:1;" data-1901="position:absolute ; opacity:0" top:710px;></div>
-    </section>
-    <section id="slide-2" class="aboutUsSlide">
-        <p>dllm</p>
-    </section>
-
+    </div>
+    <div class="slide" style="background: chocolate;" data-_box-300p="transform:translate(0,100%);" data-_box-500p="transform:translate(0,-100%);">
+        <h1>Useful link</h1>
+        <p data-_box-320p="transform:translate(-20%,0)" data-_box-340p="transform:translate(0%,0)">Github</p>
+        <p class="right" data-_box-320p="transform:translate(120%,0)" data-_box-340p="transform:translate(0%,0)">gmail</p>
+        <p data-_box-360p="transform:translate(-20%,0)" data-_box-380p="transform:translate(0%,0)">source code</p>
+    </div>
+    <div class="slide" style="background: darkcyan;" data-_box-400p="transform:translate(0,100%);" data-_box-500p="transform:translate(0,0%);">
+        <div id="img" data-_box-500p="background-size:200% auto;" data-600p="background-size:100% auto ;"></div>
+        <h1>Made by </h1>and also everyone late(0,1000%)" data-_box-460p="transform:translate(0,0%)">kotnid</h6>
+    </div>
     <script type="text/javascript" src="js/skrollr.min.js"></script>
     <script type="text/javascript">
-        var s = skrollr.init();
+        var s = skrollr.init({
+            render: function(data) {
+                //Log the current scroll position.
+                console.log(data.curTop);
+            }
+        });
     </script>
 </body>
 </html>

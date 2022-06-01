@@ -1,0 +1,59 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.box {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background: #09f;
+}
+
+.intro_box {
+    height: 12%;
+    width: 30%;
+    border-style: dotted;
+    margin-top: 3%;
+}
+
+.right {
+    float: right;
+}
+
+#img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("src/ymc.jpg");
+    background-attachment: fixed;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 47.5%;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin: 0;
+}
