@@ -165,9 +165,7 @@ a{
 
 .intro_text{
     display:inline-block;
-    margin-block-start: 0.5em;
-    vertical-align: middle;
-    position: absolute;
+    vertical-align: text-top;
 }
 
 .home_text{

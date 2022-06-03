@@ -167,6 +167,7 @@ a{
 
 .intro_text{
     display:inline-block;
+    margin-inline-start: 0.1em;
 }
 
 .home_text{
