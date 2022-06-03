@@ -164,3 +164,12 @@ a{
     width: 100%;
     height: 45%;
 }
+
+.intro_text{
+    display:inline-block;
+}
+
+.home_text{
+    color: red;
+    font-size: 1.8em;
+}

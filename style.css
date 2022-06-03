@@ -162,3 +162,15 @@ a{
     height: 80%;
     float: right
 }
+
+.intro_text{
+    display:inline-block;
+    margin-block-start: 0.5em;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.home_text{
+    color: red;
+    font-size: 2em;
+}
