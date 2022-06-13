@@ -175,3 +175,50 @@ a{
     font-size: 1.8em;
     font-weight: 700;
 }
+
+.container{
+    width: 60%;
+    height: 60%;
+    position: fixed;
+    background-color: wheat;
+    top: 18%;
+    left: 18%;
+    border-style: solid;
+    border-width: 30px;
+    border-radius: 30px;
+    z-index: 2;
+}
+.child{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front_text{
+    color: white;
+    position: fixed ;
+    font-size: 30px;
+}
+
+.wall{
+    position: absolute;
+    background-color: wheat;
+    height: 70%;
+    z-index: 1;
+    width: 100%;
+}
+
+.desk{
+    position: absolute;
+    top:70%;
+    width:100%;
+    height: 30%;
+    background-color: grey;
+    z-index: 1;
+}
