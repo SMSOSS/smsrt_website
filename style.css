@@ -251,3 +251,25 @@ a{
     height: 50%;
     top: 40%;
 }
+
+.clock{
+    position: absolute;
+    z-index: 1;
+    background-color: antiquewhite;
+    width:15%;
+    height: 8%;
+    left:5%;
+    top:5%; 
+    border-bottom: #000000 10px solid;
+    display: inline-block;
+    text-align: center;
+}
+
+.clock > h1 {
+    display: inline-block;
+}
+
+.weekday{
+    font-weight: 500;
+    font-size: large;
+}

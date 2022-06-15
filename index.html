@@ -8,11 +8,11 @@
 </head>
 <body>
 
-    <div class="slide top" data-0="transform:translate(0,0%);transform:scale(1)" data-100p="transform:translate(0,0%);transform:scale(2)" data-200p="transform:translate(0,-100%);transform:scale(2)">
+    <div class="slide top" data-0="transform:translate(0,0%);transform:scale(1);opacity:1" data-100p="transform:translate(0,0%);transform:scale(2);opacity:1" data-140p="opacity:0;" data-200p="transform:translate(0,-100%);transform:scale(2)">
         <div class="container" data-200p="opacity:1" data-300p="opacity:0">
             <div class="child">
-                <h1 class="front_text" data-0p="opacity:1" data-70p="" data-100p="opacity:0">smsrt</h1>
-                <h1 class="front_text" data-90p="opacity:0" data-120p="opacity:1" data-170p="" data-200p="opacity:0">inconsistent perfection</h1>
+                <h1 class="front_text smsrt_title" data-0p="opacity:1" data-35p="" data-50p="opacity:0">smsrt</h1>
+                <h1 class="front_text" data-40p="opacity:0" data-60p="opacity:1" data-85p="" data-100p="opacity:0">inconsistent perfection</h1>
             </div>
         </div>
         <div class="wall"></div>
@@ -20,6 +20,12 @@
         <div class="window" data-0p="transform:translate(0%,0%)" data-80p="transform:translate(150%,-150%)"></div>
         <div class="desktop" data-0p="transform:translate(0%,0)" data-80p="transform:translate(150%,0)"></div>
         <div class="desktop2" data-0p="transform:translate(0%,0)" data-80p="transform:translate(-150%,0)"></div>
+        <div class="clock" data-0p="transform:translate(0%,0%)" data-80p="transform:translate(-150%,-150%)">
+            <h1 class="weekday" id="weekday"></h1>
+            <h1 class="hour" id="hour">00</h1>
+            <h1 class="mid">:</h1>
+            <h1 class="minute" id="min">00</h1>
+        </div>
     </div>
 
     <div class="slide" data-100p="transform:translate(0,100%); opacity:0.3" data-200p="transform:translate(0,0%);opacity:1" data-300p="transform:translate(0,-100%);opacity:0.3">
