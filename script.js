@@ -21,4 +21,31 @@ function currentTime(){
     let t = setTimeout(function(){currentTime()}, 1000);
 }
 
+function windowColor(){
+    let date = new Date();
+    let hh = date.getHours();
+
+    if (hh > 6 && hh < 18){
+        if (document.getElementById("window").style.backgroundColor != "aqua"){
+            document.getElementById("window").style.transition = "background-color 5s linear";
+            document.getElementById("window").style.backgroundColor = "aqua";
+        }
+    }
+    else if (hh > 18 && hh < 19){
+        if (document.getElementById("window").style.backgroundColor != "yellow"){
+            document.getElementById("window").style.transition = "background-color 5s linear";
+            document.getElementById("window").style.backgroundColor = "yellow";
+        }
+    }
+    else{
+        if (document.getElementById("window").style.backgroundColor != "black"){
+            document.getElementById("window").style.transition = "background-color 5s linear";
+            document.getElementById("window").style.backgroundColor = "black";
+        }
+    }
+
+    let t = setTimeout(function(){windowColor()} , 1000);
+}
+
 currentTime();
+windowColor();
