@@ -26,21 +26,21 @@ function windowColor(){
     let hh = date.getHours();
 
     if (hh > 6 && hh < 18){
-        if (document.getElementById("window").style.backgroundColor != "aqua"){
-            document.getElementById("window").style.transition = "background-color 5s linear";
-            document.getElementById("window").style.backgroundColor = "aqua";
+        if (document.getElementById("window").style.backgroundColor != "#91CEFF"){
+            document.getElementById("window").style.transition = "background-color 3s linear";
+            document.getElementById("window").style.backgroundColor = "#91CEFF";
         }
     }
     else if (hh > 18 && hh < 19){
-        if (document.getElementById("window").style.backgroundColor != "yellow"){
-            document.getElementById("window").style.transition = "background-color 5s linear";
-            document.getElementById("window").style.backgroundColor = "yellow";
+        if (document.getElementById("window").style.backgroundColor != "#FEC051"){
+            document.getElementById("window").style.transition = "background-color 3s linear";
+            document.getElementById("window").style.backgroundColor = "#FEC051";
         }
     }
     else{
-        if (document.getElementById("window").style.backgroundColor != "black"){
-            document.getElementById("window").style.transition = "background-color 5s linear";
-            document.getElementById("window").style.backgroundColor = "black";
+        if (document.getElementById("window").style.backgroundColor != "#090254"){
+            document.getElementById("window").style.transition = "background-color 3s linear";
+            document.getElementById("window").style.backgroundColor = "#090254";
         }
     }
 

@@ -224,32 +224,48 @@ a{
 .window{
     position: absolute;
     z-index: 1;
-    background-color: aqua;
+    background-color: #91CEFF;
     width: 30%;
     height: 30%;
     left:70%;
     border-style: solid;
     border-width: 10px;
     border-top: 0px;
+    
 }
 
 .desktop{
     position: absolute;
     z-index: 1;
-    background-color: black;
-    width: 20%;
+    background-color: gray;
+    width: 13%;
     height: 50%;
-    left: 85%;
+    left: 84%;
     top: 40%;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .desktop2{
     position: absolute;
     z-index: 1;
-    background-color: black;
-    width: 15%;
+    background-color: gray;
+    left: 1%;
+    width: 13%;
     height: 50%;
     top: 40%;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clock{
@@ -272,4 +288,11 @@ a{
 .weekday{
     font-weight: 500;
     font-size: large;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    border-radius: 50%;
 }
